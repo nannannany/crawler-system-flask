@@ -1,0 +1,31 @@
+[database]
+host =
+port =
+user =
+password =
+dbname =
+
+[DrissionPage]
+;谷歌浏览器启动文件路径，例：/usr/bin/google-chrome
+chrome_path =
+
+[LOGIN]
+loginpassword =
+
+[EMAIL]
+daily_limit = 400
+
+;邮箱池
+[smtp_a]
+host =
+port =
+user =
+password =
+use_tls =
+
+[smtp_b]
+host =
+port =
+user =
+password =
+use_tls =
