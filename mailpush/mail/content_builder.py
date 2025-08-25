@@ -5,7 +5,7 @@ from app.models.users_model import User
 def build_email_subject(user: User) -> str:
     """
     构造邮件主题：
-      "<username>"您好，招标信息集成系统来信息了
+      "<username>"您好，信息集成系统来信息了
     """
     return f'"{user.username}"您好，信息集成系统来信息了'
 
